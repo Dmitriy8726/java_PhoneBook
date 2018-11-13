@@ -15,7 +15,10 @@ public class Book {
 		//System.out.println(bookUr.get(0).getINN());
 		//System.out.print(bookFis.get(0).index);
 		Statistic <Cells> p = new Statistic <Cells> ();
-
+		p.array.add(new Cells("Dima", "Oleg", 10));
+		p.array.add(new Cells("Lusa", "Oleg", 15));
+		System.out.println(p.getMax().getName());
+		
 		try {
             FileWriter fw = new FileWriter("Phonebook.csv");
 			for (Fis f : bookFis)

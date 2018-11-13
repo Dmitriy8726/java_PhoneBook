@@ -1,6 +1,6 @@
 package Phonebook;
 
-public class Cells {
+public class Cells extends CollsandConf{
 	private String NameWhoCells;
 	private String NameWorking;
 	private int Time;
@@ -11,7 +11,7 @@ public class Cells {
 		this.NameWorking = working;
 		this.Time = time; 
 	}
-	public String getNameWhoCells() { return NameWhoCells; }
+	public String getName() { return NameWhoCells; }
 	public String getNameWorking() { return NameWorking; }
 	public int getTime() { return Time; }
 

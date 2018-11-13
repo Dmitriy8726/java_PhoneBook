@@ -1,6 +1,6 @@
 package Phonebook;
 
-public class Conf {
+public class Conf extends CollsandConf{
 	private String[] Name;
 	private int Time;
 	
@@ -9,7 +9,8 @@ public class Conf {
 		this.Name = name;
 		this.Time = time; 
 	}
-	public String[] getName() { return Name; }
+	public String[] getNameConf() { return Name; }
+	public String getName() {return null;}
 	public int getTime() { return Time; }
 }
 
