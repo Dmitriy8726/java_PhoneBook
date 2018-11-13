@@ -25,7 +25,7 @@ public class User implements CSVfile {
 		this.ID = Integer.valueOf(arr[0]);
 		this.Name = arr[1];
 		this.Tele = arr[2];
-    }
+    	}
 
 }
 

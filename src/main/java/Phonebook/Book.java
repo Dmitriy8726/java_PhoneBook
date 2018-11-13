@@ -14,7 +14,7 @@ public class Book {
 		//System.out.print(bookUr.get(0).getName() + " ");
 		//System.out.println(bookUr.get(0).getINN());
 		//System.out.print(bookFis.get(0).index);
-
+		Statistic <Cells> p = new Statistic <Cells> ();
 
 		try {
             FileWriter fw = new FileWriter("Phonebook.csv");

@@ -1,18 +1,19 @@
 package Phonebook;
 
 public class Cells {
-	private String Name;
-	private String Fio;
+	private String NameWhoCells;
+	private String NameWorking;
 	private int Time;
 	
-	public Cells (String name, String fio, int time)
+	public Cells (String name, String working, int time)
 	{
-		this.Name = name;
-		this.Fio = fio;
+		this.NameWhoCells = name;
+		this.NameWorking = working;
 		this.Time = time; 
 	}
-	public String getName() { return Name; }
-	public String getFio() { return Fio; }
+	public String getNameWhoCells() { return NameWhoCells; }
+	public String getNameWorking() { return NameWorking; }
 	public int getTime() { return Time; }
+
 }
 
